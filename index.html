@@ -23,6 +23,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* Sidebar name & title sizing */
+.sidebar-info .name {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.sidebar-info .title {
+  font-size: 16px;
+  padding: 6px 14px;
+}
+
+/* Make avatar box slightly larger */
+.avatar-box img {
+  width: 100px !important;
+  height: 100px !important;
+}
+</style>
+
 </head>
 
 <body>
@@ -173,9 +193,11 @@
 
       <script>
         function openResumeAndNavigate() {
-          window.open('https://drive.google.com/file/d/1XChTqE1F9jav7UPetmMBm7M5b13iaM8d/view', '_blank');
-          window.location.href = 'https://karan4620.github.io/KaranSanguKrishnan.github.io/';
-        }
+  window.open(
+    'https://drive.google.com/file/d/1XChTqE1F9jav7UPetmMBm7M5b13iaM8d/view',
+    '_blank'
+  );
+}
       </script>
 
       <!--
@@ -205,19 +227,6 @@
         </section>
 
         <!-- Chatbot Container -->
-        <section class="chatbot-section">
-          <div class="chatbot-container">
-            <div class="chatbot-header">
-              <h4>Ask NevBot anything about me!</h4>
-            </div>
-            <div class="chatbot-messages" id="chatbot-messages">
-            </div>
-            <div class="chatbot-input">
-              <input type="text" id="chatbot-input" placeholder="Type a message...">
-              <button id="chatbot-send-btn">Send</button>
-            </div>
-          </div>
-        </section>
         </article>
 
 
